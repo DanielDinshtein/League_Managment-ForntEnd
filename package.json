@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "serve_project": "vue-cli-service serve src/main.js",
-    "build_project": "vue-cli-service build src/main.js"
+    "build_project": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "heroku": "^7.56.1",
+    "uuid": "^3.4.0",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.5.2",
